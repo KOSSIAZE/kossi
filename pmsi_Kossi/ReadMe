@@ -1,0 +1,39 @@
+README
+
+##Configuration
+
+Veuillez suivre ces étapes pour faire fonctionner le programme correctement :
+
+-- Une base de donnée nommée 'bd_projet' déja crée nous avait été remise.
+
+-- Ensuite exécuter l'application, la configuration de la base de données par défaut est la suivante :
+
+		port=3306
+		url=jdbc:mysql://localhost:3306/bd_projet
+		User="root"
+		Password="root"
+		driver=com.mysql.jdbc.Driver
+		
+-- LES OBJECTIFS DE L'APPLICATION
+
+** ENREGISTRER UN NOUVEAU PATIENT : Possibilité d'ajouter un nouveau patient dans la base de données ainsi que de 
+                                    faire si possible une hospitalisation de ce patient si vous le souhaitez.
+                                    
+** RECHERCHER LES SEJOURS D'UN PATIENT :
+   Rechercher les différents séjours d'un patient en renseignant les paramètres comme son nom, prénoms et sa date de naissance
+   
+   
+** NOMBRE ACTES D'UN PATIENT AUCOURS D'UNE PERIODE :
+   Pour avoir les différents actes d'un patient il faut donner le nom, prénoms et date de Naissance de ce dernier
+
+** STATISTIQUES :
+    Dans cette rubrique on peut avoir les diagnostics les plus fréquents chez les femmes et celles de plus de 60 ans 
+    chez les hommes, avoir la liste des femmes ayant une grossesse non désirée.
+    
+** DIFFICULTES RENCONTREES :
+  La base de données avait été crée avec des ID_PATIENT non auto-incrémenté faisant que pour enregistrer un patient il 
+  faut en saisir à la main l'ID du nouveau patient ainsi que l'ID_HOSPITALISATION
+
+
+
+
